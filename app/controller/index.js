@@ -1,7 +1,9 @@
+const users = require('./users')
+const register = require('./register')
 const accounts = require('./accounts');
 
-
 module.exports = {
-    users: require('./users'),
+    users,
+    register,
     accounts
 }
