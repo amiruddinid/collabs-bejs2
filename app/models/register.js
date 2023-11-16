@@ -1,13 +1,24 @@
+class User {
+    constructor(name, email) {
+      this.name = name;
+      this.email = email;
+      this.password = password
+    }
+  }
 
+  const registerWithEmail = (name, email, password) => {
+    console.log(`User '${name}' registered with email '${email}'`);
+  };
 
-const databaseMock = [{
-    id : 1,
-    email : "superadmin@gmail.com",
-    password : '12341234'
-},
-{
-    id : 2,
-    email : "userpertama@gmail.com",
-    password : '12341234'
-}
-]
+  const registerWithGoogle = () => {
+    console.log('User registered with Google');
+  };
+
+  const registerWithFacebook = () => {
+    console.log('User registered with Facebook');
+  };
+
+  registerWithEmail('Onny Vergiean', 'onny@example.com', '12345678');
+  registerWithGoogle();
+  registerWithFacebook();
+  module.exports = {User}
