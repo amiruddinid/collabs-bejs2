@@ -8,5 +8,12 @@ module.exports={
              email:"login@gmail.com"
             },
         })
-    }
+    },
+    async resetpassword(req,res){
+        return res.status(201).json({
+            status:"Success!",
+            message:"Silahkan Reset Password"
+        })
+    },
+    
 }

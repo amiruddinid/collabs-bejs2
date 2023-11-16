@@ -5,6 +5,7 @@ const controller=require('../app/controller')
 
 
 router.post('/api/login', controller.login.login)
+router.get('/api/resetpassword', controller.login.resetpassword)
 
 
 
