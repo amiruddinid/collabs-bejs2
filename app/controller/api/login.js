@@ -15,4 +15,11 @@ module.exports={
             message:"Berhasil verified!",
         })
     },
+    async resetpassword(req,res){
+        return res.status(201).json({
+            status:"Success!",
+            message:"Silahkan Reset Password"
+        })
+    },
+    
 }
