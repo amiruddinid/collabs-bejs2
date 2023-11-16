@@ -9,23 +9,16 @@ module.exports={
             },
         })
     },
-    async verifyEmail(req,res){
-        return res.status(201).json({
-            status:"Success!",
-            message:"Berhasil verified!",
-        })
-    },
     async resetpassword(req,res){
         return res.status(201).json({
             status:"Success!",
             message:"Silahkan Reset Password"
         })
     },
-    async emailverified(req,res){
+    async verifyEmail(req,res){
         return res.status(201).json({
             status:"Success!",
-            message:"Email telah Terverifikasi!!!"
+            message:"Email terverifikasi"
         })
     },
-    
 }
