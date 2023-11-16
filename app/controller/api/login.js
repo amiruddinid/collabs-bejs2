@@ -15,5 +15,11 @@ module.exports={
             message:"Silahkan Reset Password"
         })
     },
+    async emailverified(req,res){
+        return res.status(201).json({
+            status:"Success!",
+            message:"Email telah Terverifikasi!!!"
+        })
+    },
     
 }
