@@ -1,3 +1,7 @@
+const accounts = require('./accounts');
+
+
 module.exports = {
-    users: require('./users')
+    users: require('./users'),
+    accounts
 }
